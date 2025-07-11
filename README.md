@@ -60,9 +60,4 @@ RootYatra contributes directly to:
 
 ---
 
-## 📫 Contact
-
----
-
-> RootYatra – Journey to the soul of India 🇮🇳
 
