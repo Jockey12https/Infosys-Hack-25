@@ -5,23 +5,23 @@ const ExperienceCategories = () => {
   const categories = [
     {
       icon: Wheat,
-      title: 'Sustainable Farming',
-      description: 'Learn traditional farming methods and organic practices',
-      image: 'https://images.pexels.com/photos/1459334/pexels-photo-1459334.jpeg?auto=compress&cs=tinysrgb&w=400',
+      title: 'A Day with Artisans',
+      description: 'Learn traditional art forms and cultural exchange',
+      image: 'https://www.keralatourism.org/responsible-tourism/packages/uploads/a-day-with-artisans.jpg',
       experiences: 23
     },
     {
       icon: Leaf,
-      title: 'Toddy Tapping',
-      description: 'Experience the ancient art of palm tree tapping',
-      image: 'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&w=400',
+      title: 'At top of Kolukkumalae',
+      description: 'Experience the altitude of nature',
+      image: 'https://www.keralatourism.org/responsible-tourism/packages/uploads/at-top-kolukkumalai.jpg',
       experiences: 18
     },
     {
       icon: Palette,
-      title: 'Traditional Crafts',
-      description: 'Master leaf weaving and local handicrafts',
-      image: 'https://images.pexels.com/photos/1770775/pexels-photo-1770775.jpeg?auto=compress&cs=tinysrgb&w=400',
+      title: 'Traditional Crafts Village',
+      description: 'Master local handicrafts',
+      image: 'https://en-media.thebetterindia.com/uploads/2017/03/village_f.jpg',
       experiences: 31
     },
     {

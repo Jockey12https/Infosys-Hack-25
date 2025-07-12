@@ -7,10 +7,16 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-6">
-              <MapPin className="h-8 w-8 text-orange-600" />
-              <span className="text-2xl font-bold">VillageStay</span>
-            </div>
+            <img
+    src="https://ik.imagekit.io/8vvkoi3dt/ChatGPT_Image_Jul_12__2025__01_28_03_AM-removebg-preview.png?updatedAt=1752263937896"
+    alt="Logo"
+    width={90}
+    height={90}
+    className="object-contain"
+  />
+  <span className="text-lg font-bold text-gray-1500 md:text-3xl uppercase tracking-wider font-['Oswald'] hidden sm:inline-block">
+    सहचारी
+  </span>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Connecting travelers with authentic village experiences through local guides. 
               Discover real culture, support local communities.
