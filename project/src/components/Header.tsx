@@ -260,19 +260,19 @@ const Header = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-            <div className="flex items-center gap-2 sm:gap-3">
-  <img
-    src="https://ik.imagekit.io/8vvkoi3dt/ChatGPT_Image_Jul_12__2025__01_28_03_AM-removebg-preview.png?updatedAt=1752263937896"
-    alt="Logo"
-    width={105}
-    height={105}
-    className="object-contain"
-  />
-  <span className="text-lg font-bold text-gray-1500 md:text-4xl uppercase tracking-wider font-['Oswald'] hidden sm:inline-block">
-    सहचारी
-  </span>
-  
-</div>
+  <div className="flex items-center gap-2 sm:gap-3">
+    <img
+      src="https://ik.imagekit.io/8vvkoi3dt/ChatGPT_Image_Jul_12__2025__01_28_03_AM-removebg-preview.png?updatedAt=1752263937896"
+      alt="Logo"
+      width={105}
+      height={105}
+      className="object-contain w-12 h-12 sm:w-[105px] sm:h-[105px]"
+    />
+    <span className="text-lg font-bold text-gray-1500 md:text-4xl uppercase tracking-wider font-['Oswald'] sm:inline-block">
+      <span className="inline sm:hidden">सहचारी</span> {/* Single character for mobile */}
+      <span className="hidden sm:inline">सहचारी</span> {/* Full text for desktop */}
+    </span>
+  </div>
 </Link>
             <div 
               className="flex items-center space-x-2 cursor-pointer"

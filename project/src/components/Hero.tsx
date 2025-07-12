@@ -1,5 +1,7 @@
 import React from 'react';
 import { ArrowRight, Users, Shield, Globe } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
 
 const Hero = () => {
   return (
@@ -16,21 +18,21 @@ const Hero = () => {
               immerse yourself in real village life without the tourist crowds.
             </p>
             
-            <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <a 
-                href="/find-guides"
-                className="bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-orange-700 transition-colors flex items-center justify-center"
-              >
-                Find Your Guide
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </a>
-              <a 
-                href="/become-guide"
-                className="border-2 border-orange-600 text-orange-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-orange-600 hover:text-white transition-colors"
-              >
-                Become a Guide
-              </a>
-            </div>
+           <div className="mt-8 flex flex-col sm:flex-row gap-4">
+  <Link 
+    to="/find-guides"
+    className="bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-orange-700 transition-colors flex items-center justify-center"
+  >
+    Find Your Guide
+    <ArrowRight className="ml-2 h-5 w-5" />
+  </Link>
+  <Link 
+    to="/become-guide"
+    className="border-2 border-orange-600 text-orange-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-orange-600 hover:text-white transition-colors"
+  >
+    Become a Guide
+  </Link>
+</div>
 
             <div className="mt-12 grid grid-cols-3 gap-8">
               <div className="text-center">
